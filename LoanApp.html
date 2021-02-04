@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan App</title>
+    <link rel="stylesheet" href="LoanApp.css">
+</head>
+<body>
+    <div class="container">
+       <header>
+           <h1>Tip Calculator App</h1>
+       </header>
+        <form action="" id="loan-form">
+            <label for="amount">Tip Amount:</label>
+            <input id="amount" type="text" name="loan" value="">
+            <small id="small"></small>
+
+            <label for="rate">Rate(%):</label>
+            <input id="rate" type="text" name="rate">
+            <small id="small"></small>
+
+            <label for="repayment">Payment Year(s):</label>
+            <input id="repayment" type="text" name="years" >
+            <small id="small"></small>
+            
+            <input type="submit" id="btn" value="Calculate">
+
+        </form>
+        <footer>
+            <div class="processing">Processing....</div>
+            <div class="result">RESULTS</div>
+
+            <label for="monthlyPayment">Monthly Payments($):</label>
+            <input id="monthlyPayment" type="text" name="monthly payments" disabled>
+            
+            <label for="totalInterest">Total Interest:</label>
+            <input id="totalInterest" type="text" name="yearly payments" disabled>
+
+            <label for="totalPayment">Total Payments:</label>
+            <input id="totalPayment" type="text" name="yearly payments" disabled>
+            
+        </footer>
+
+           
+        </div> 
+        
+       
+    </div>
+
+    <script src="LoanApp.js"></script>
+</body>
+</html>
